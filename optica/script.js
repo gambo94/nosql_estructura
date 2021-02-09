@@ -18,7 +18,7 @@ db.customers.insertOne({
     orders: [ 
         {
         brand: 'Rayban', 
-        supplier: 'M4556534Y',
+        supplier_id: 'M4556534Y',
             order_details: {
                 price: 20,
                 left_prescription: 2,
@@ -52,7 +52,7 @@ db.customers.insertOne({
     orders: [ 
         {
         brand: 'Carrera', 
-        supplier: 'F4553744B',
+        supplier_id: 'F4553744B',
         order_details: {
                 price: 80,
                 left_prescription: 3,
@@ -70,7 +70,7 @@ db.customers.insertOne({
 
         {
         brand: 'NiceOnes', 
-        supplier: 'F4553744B',
+        supplier_id: 'F4553744B',
         order_details: {
                 price: 100,
                 left_prescription: 2,
