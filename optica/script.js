@@ -8,6 +8,7 @@ db.customers.insertOne({
     surname: 'Variopinto',
     phone: 654567876,
     email: 'occhiov@gmail.com',
+    signup_date: new Date(),
     address: {
         street: 'Fake Street',
         number: 2,
